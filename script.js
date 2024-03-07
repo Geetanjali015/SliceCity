@@ -1,4 +1,5 @@
-let card = document.querySelector('.cart');
+let cart = document.querySelector('.cartone');
 document.querySelector('#cart').onclick = () =>{
     cart.classList.toggle('active');
 }
+
