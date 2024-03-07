@@ -57,7 +57,7 @@ html{
     display:none;
     
 }
-.header .cart{
+.header .cartone{
     position: absolute;
     top: 115%; right: -105%;
     background: #fff;
@@ -67,12 +67,12 @@ html{
     padding: 2rem;
 }
 
-.header .cart.active{
+.header.cartone.active{
     right: 2rem;
     transition: .4s linear;
 
 }
-.header .cart .box{
+.header.cartone.box{
     display: flex;
     align-items: center;
     gap: 1.5rem;
