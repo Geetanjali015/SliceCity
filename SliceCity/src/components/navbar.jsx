@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { useState } from "react";
 import Button from "@components/layouts/Button";
+import DarkMode from "@components/layouts/DarkMode";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 
@@ -70,8 +71,14 @@ const Navbar = () => {
           </Link>
         </nav>
 
+        <div className=" flex items-center gap-4">
+          <div>
+            <DarkMode />
+          </div>
+
         <div className=" hidden md:flex items-center gap-4">
           <Button title="Sign Up" />
+        </div>
         </div>
 
         <div className="md:hidden flex items-center">
